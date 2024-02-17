@@ -60,4 +60,4 @@ Check out my GitHub [Puffcatz](https://github.com/khoidh24)
 - Install all requirements plugins, dependencies, packages,...etc. that support for all things I listed on **Requirements** section.
 - For Fisher - Fish Shell, you need to run `tide configure` after running `fish` to setup your profile at the first time.
 - add alias command into `~/.bashrc` by using `sudo nano` (or `nvim`) to use Tmux colorscheme profile:
-  `tmux -f ~/.config/tmux/.tmux.conf -T 256 new-session\; attach \; source-file ~/.config/tmux/meta.min.tmuxtheme`
+  - `tmux -f ~/.config/tmux/.tmux.conf -T 256 new-session\; attach \; source-file ~/.config/tmux/meta.min.tmuxtheme`
