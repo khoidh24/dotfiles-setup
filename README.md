@@ -19,15 +19,16 @@ Check out my repository [Puffcatz](https://github.com/khoidh24)
 
 ## Contents
 
-- Neovim config
-- tmux config
-- fish config
+- **Neovim** config
+- **Tmux** config
+- **Fish Shell** config
 
 ## Setup Neovim
 
 ### Requirements
 
 - [Neovim](https://neovim.io/) >= **0.9.0** (needs to be built with **LuaJIT**)
+- [Tmux](https://github.com/tmux/tmux/wiki)
 - Git >= **2.19.0** (for partial clones support)
 - [LazyVim](https://www.lazyvim.org/)
 - [Nerd Font](https://www.nerdfonts.com/)(v3.0 or greater) **(Need to display some icons on Terminal)**
@@ -42,7 +43,7 @@ Check out my repository [Puffcatz](https://github.com/khoidh24)
   - [alacritty](https://github.com/alacritty/alacritty) **_(Linux, MacOS & Windows)_**
   - [iterm2](https://iterm2.com/) **_(MacOS)_**
 
-## Shell setup (macOS & Linux)
+## Fish Shell setup (macOS & Linux)
 
 - [Fish shell](https://fishshell.com/)
 - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
