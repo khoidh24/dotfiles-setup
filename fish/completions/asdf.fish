@@ -1,1 +1,0 @@
-/home/puffcat/.asdf/completions/asdf.fish
