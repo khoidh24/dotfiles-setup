@@ -6,7 +6,7 @@
 
 **Warning**: 
 
-- Blindly use my settings unless you know what are configurations inside. Any modifications will lead to your own risk.
+- Blindly use my settings unless you know what configurations are inside. Any modifications will lead to your own risk.
 - This setup is only for coding Golang and Reactjs. If you want to add any language, make sure to check document from [tree-sitter](https://tree-sitter.github.io/tree-sitter/) and [LSP](https://neovim.io/doc/user/lsp.html)
 
 ### Looking for my own projects?
@@ -15,7 +15,7 @@ I'm currently working with Comepass Academy (Freelance)
 
 ![Comepass Academy](./images/comepass.png)
 
-Check out my repository [Puffcatz](https://github.com/khoidh24)
+Check out my GitHub [Puffcatz](https://github.com/khoidh24)
 
 ## Contents
 
@@ -58,3 +58,6 @@ Check out my repository [Puffcatz](https://github.com/khoidh24)
 
 - Clone my repository and move `nvim`, `fish` and `tmux` into `~/.config` folder.
 - Install all requirements plugins, dependencies, packages,...etc. that support for all things I listed on **Requirements** section.
+- For Fisher - Fish Shell, you need to run `tide configure` after running `fish` to setup your profile at the first time.
+- add alias command into `~/.bashrc` by using `sudo nano` (or `nvim`) to use Tmux colorscheme profile:
+  `tmux -f ~/.config/tmux/.tmux.conf -T 256 new-session\; attach \; source-file ~/.config/tmux/meta.min.tmuxtheme`
